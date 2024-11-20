@@ -1,0 +1,142 @@
+#valores{
+
+    height: 40vh;
+    width: 100%;
+    margin-top: 18%;
+    margin-bottom: 5%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    background-image:  linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 1)),  url(../../../public/assets/images/valores/fundo-valores.jpg);
+    background-color: #000;
+    opacity: 0.80;
+    background-size: 100%;
+
+   
+
+    .um{
+
+      width: 20%;
+      height: 20vh;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      color: white;
+     
+
+
+      .numero{
+        font-size: 40px;
+        font-family: 'Arial', sans-serif;
+        font-weight: 500;
+      }
+
+      .texto{
+
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        position: relative;
+        bottom: 20px;
+
+      }
+
+    }
+
+    .dois{
+
+      width: 20%;
+      height: 20vh;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      color: white;
+
+
+
+      .numero{
+
+        font-size: 40px;
+        font-family: 'Arial', sans-serif;
+        font-weight: 500;
+      }
+
+      .texto{
+
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        position: relative;
+        bottom: 20px;
+
+
+      }
+
+    }
+
+    .tres{
+
+      width: 20%;
+      height: 20vh;
+      background-color: transparent;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-around;
+      color: white;
+    
+     
+
+
+      .numero{
+        font-size: 40px;
+        font-family: 'Arial', sans-serif;
+        font-weight: 500;
+      }
+
+      .texto{
+
+        font-size: 20px;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 300;
+        position: relative;
+        bottom: 20px;
+        color: #fff;
+
+      }
+
+    }
+
+    @media screen and (max-width: 1070px) {
+      
+      .texto{
+
+        text-align: center;
+
+      }
+
+    
+
+  }}
+
+  @media screen and (max-width: 800px) {
+      
+        #valores{
+
+          display: none;
+
+        }
+
+
+  }
+  #valores:hover{
+
+  box-shadow: var(--box-shadow);
+  cursor: pointer;
+
+  }

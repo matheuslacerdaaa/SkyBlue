@@ -1,0 +1,33 @@
+footer{
+
+    background-color: #D6F1F7;
+  
+    #footer-itens{
+  
+      display: flex;
+      justify-content: space-between;
+      padding: 0px 8% 24px 8%;
+      align-items: center;
+    }
+  
+    #copyright{
+  
+      color: #1d1d1d;
+      font-weight: 500;
+      font-family: 'Poppins', sans-serif;
+  
+    }
+  
+  
+    @media screen and (max-width: 600px) {
+      
+      #footer-itens{
+  
+        flex-direction: column;
+        gap: 20px;
+  
+      }
+  
+    }
+  
+   }
