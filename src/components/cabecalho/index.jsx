@@ -13,7 +13,7 @@ export default function Cabecalho() {
 
     return (
         <header className={mobilebtn ? 'mobile-active' : ''}>
-            <img id="logo" src="./assets/images/cabecalho/Logo-preto.webp" alt="Logo" />
+            <img id="logo" src="./assets/images/cabecalho/Logo-preto.png" alt="Logo" />
 
             <button className="menu-btn" onClick={abrirmenu}>
                 <p className={`fa-solid ${icones}`}></p>

@@ -34,7 +34,7 @@ export default function Planos() {
                     <div className="mae">
 
                         <div className="valor">
-                            <h1>R$500<span>/mês</span></h1>
+                            <h1>R$1900<span>/mês</span></h1>
                         </div>
 
                         <div className="subtitulo-valor">
@@ -81,7 +81,7 @@ export default function Planos() {
                     <div className="mae">
 
                         <div className="valor">
-                            <h1>R$3500<span>/ano</span></h1>
+                            <h1>R$11400<span>/ano</span></h1>
                         </div>
 
                         <div className="subtitulo-valor">
